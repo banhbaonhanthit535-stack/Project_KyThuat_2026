@@ -32,17 +32,16 @@ Dự án giải quyết bài toán tuyển sinh đại học trong giai đoạn 
 
 * **Chỉ số Cạnh tranh Tuyển sinh Đa biến (CI thang 0 – 100):**
 
-  $$
-  \text{CI} = 0.50 \times \text{Score}_{\text{norm}} + 0.25 \times \text{Ratio}_{\text{norm}} + 0.15 \times \text{Tier}_{\text{norm}} + 0.10 \times \text{Trend}_{\text{norm}}
-  $$
+* **Chỉ số Cạnh tranh Tuyển sinh Đa biến (Competition Index - CI, thang 0 – 100):**
 
-  *Trong đó chuẩn hóa Min-Max 4 thành phần: Điểm chuẩn (50%), Tỷ lệ chọi (25%), Hạng Tier (15%), Google Trends (10%).*
-
-  Phân tầng khách quan 216 ngành công nghệ năm 2026: **54 ngành Rất cao (25%)**, **70 ngành Cao (32.4%)**, **68 ngành Trung bình (31.5%)** và **24 ngành Thấp (11.1%)**.
+$$
+\text{CI} = 0.50 \times \text{Score}_{\text{norm}} + 0.25 \times \text{Ratio}_{\text{norm}} + 0.15 \times \text{Tier}_{\text{norm}} + 0.10 \times \text{Trend}_{\text{norm}}
+$$
 
   *Trong đó các thành phần được chuẩn hóa Min-Max: Điểm chuẩn (50%), Tỷ lệ chọi (25%), Phân hạng trường (15%), Xu hướng quan tâm Google Trends (10%).*
 
-  Phân tầng khách quan 216 chương trình đào tạo công nghệ năm 2026: **54 ngành Rất cao (25.0%)**, **70 ngành Cao (32.4%)**, **68 ngành Trung bình (31.5%)** và **24 ngành Thấp (11.1%)**.
+  Phân tầng khách quan 216 chương trình đào tạo công nghệ năm 2026: **54 ngành Rất cao (25.0%), 70 ngành Cao (32.4%), 68 ngành Trung bình (31.5%)** và **24 ngành Thấp (11.1%)**.
+
 * **Ứng dụng tư vấn tuyển sinh (Streamlit Dashboard):** Triển khai cục bộ ổn định, cung cấp chức năng đối sánh tự động 3 phân nhóm nguyện vọng: Nhóm An toàn ($\Delta \ge +0.5$ điểm), Nhóm Vừa sức ($\pm 0.5$ điểm) và Nhóm Thử thách ($\Delta < -0.5$ điểm).
 
 ---
