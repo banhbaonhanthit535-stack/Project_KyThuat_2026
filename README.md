@@ -19,7 +19,7 @@ Dự án giải quyết bài toán tuyển sinh đại học trong giai đoạn 
   * Đạt **$R^2 = 0.7352$** (giải thích 73.52% sự biến thiên điểm chuẩn), sai số tuyệt đối trung bình **$\text{MAE} = 1.0196$ điểm** và sai số trung vị **$\text{MedAE} = 0.7223$ điểm** trên tập kiểm thử độc lập năm 2025 ($n = 151$).
   * Vượt trội hoàn toàn mô hình nền Linear Regression ($R^2 = -25.1010, \text{MAE} = 10.98$ điểm) và Cây quyết định đơn ($R^2 = 0.7062$).
 * **Chỉ số Cạnh tranh Tuyển sinh Đa biến ($\text{CI}$ thang 0 – 100):**
-  $$\text{CI} = 0.50 \cdot \text{diem\_norm} + 0.25 \cdot \text{ty\_le\_choi\_norm} + 0.15 \cdot \text{tier\_norm} + 0.10 \cdot \text{xu\_huong\_norm}$$
+  $$\text{CI} = 0.50 \cdot \text{Điểm}_{\text{norm}} + 0.25 \cdot \text{TỷLệChọi}_{\text{norm}} + 0.15 \cdot \text{Tier}_{\text{norm}} + 0.10 \cdot \text{XuHướng}_{\text{norm}}$$
   Phân tầng khách quan 216 ngành công nghệ năm 2026: **54 ngành Rất cao (25%)**, **70 ngành Cao (32.4%)**, **68 ngành Trung bình (31.5%)** và **24 ngành Thấp (11.1%)**.
 * **Web App Streamlit (`app.py`, `run.bat`):** Chạy Offline 100% không phụ thuộc Internet, tự động phân 3 Tab Nguyện vọng: **Nhóm An Toàn** ($\Delta \ge +0.5$đ), **Nhóm Vừa Sức** ($\pm 0.5$đ) và **Nhóm Thử Thách** ($\Delta < -0.5$đ).
 
